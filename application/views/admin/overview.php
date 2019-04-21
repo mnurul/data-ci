@@ -438,7 +438,12 @@
                                                                         <td>test</td>
                                                                         <td class="datatable-ct"><i class="fa fa-check"></i>
                                                                         </td> -->
-                                                                        <td><?= $adm["id"]; ?></td>
+                                                                        <td></td>
+                                                                        <td><?= $adm['id']; ?></td>
+                                                                        <td><?= $adm['nama_admin']; ?></td>
+                                                                        <td><?= $adm['username']; ?></td>
+                                                                        <td><?= $adm['password']; ?></td>
+                                                                        <td></td>
                                                                     </tr>
                                                                 </tbody>
                                                                 <?php
